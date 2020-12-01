@@ -37,5 +37,8 @@ module ECommerceApi
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # Inclui os validators personalizados no rails
+    config.autoload_paths += %W[" #{config.root}/app/validators/ "]
   end
 end
