@@ -1,7 +1,7 @@
 module Admin::V1 
     class HomeController < ApiController
         def index
-            render json: { mensage: "Uhull!" }
+            render json: { message: "Uhull!" }
         end
     end
 end
