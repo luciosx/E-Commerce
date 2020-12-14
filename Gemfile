@@ -18,6 +18,9 @@ gem 'devise_token_auth', '~> 1.1.4'
 # Cors
 gem 'rack-cors', '~> 1.1.1'
 
+# Rendering
+gem 'jbuilder', '~> 2.10.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
